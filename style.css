@@ -1,0 +1,133 @@
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+body,
+p,
+li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #a3b0ed;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  background: #433080;
+  padding: 0.5rem 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  color: #9ed5a0;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  border: 2px solid #9ed5a0;
+  border-radius: 8px;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #9ed5a0;
+}
+.button-link {
+  display: inline-block;
+  background-color: #433080;
+  color: rgb(178, 249, 193);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.3rem 0.7rem;
+  border: 2px solid #9ed5a0;
+  border-radius: 8px;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.button-link:hover {
+  background-color: white;
+  color: #4caf50;
+}
+
+h1 {
+  display: block;
+  background-color: #433080;
+  color: rgb(178, 249, 193);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin: 1rem auto;
+  text-align: center;
+  width: max-content;
+}
+
+h2,
+h3 {
+  display: block;
+  background-color: #433080;
+  color: rgb(178, 249, 193);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+  text-align: left;
+  width: max-content;
+}
+
+p,
+li {
+  margin: 0.5rem 1rem;
+  line-height: 1.5;
+}
+
+main {
+  flex: 1;
+  padding: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #433080;
+  color: white;
+}
+.center-image {
+  display: block;
+  margin: 3rem auto;
+  max-width: 90%;
+  height: auto;
+  border-radius: 6px;
+}
+.small-image {
+  max-width: 80%;
+}
